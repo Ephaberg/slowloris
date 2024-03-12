@@ -1,3 +1,30 @@
+# STATS
+<p align="center">
+    <a href="https://github.com/Ephaberg/github-readme-stats/actions">
+      <img alt="Tests Passing" src="https://github.com/Ephaberg/github-readme-stats/workflows/Test/badge.svg" />
+    </a>
+    <a href="https://github.com/Ephaberg/github-readme-stats/graphs/contributors">
+      <img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/Ephaberg/github-readme-stats" />
+    </a>
+    <a href="https://codecov.io/gh/Ephaberg/github-readme-stats">
+      <img alt="Tests Coverage" src="https://codecov.io/gh/Ephaberg/github-readme-stats/branch/master/graph/badge.svg" />
+    </a>
+    <a href="https://github.com/Ephaberg/github-readme-stats/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Ephaberg/github-readme-stats?color=0088ff" />
+    </a>
+    <a href="https://github.com/Ephaberg/github-readme-stats/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/Ephaberg/github-readme-stats?color=0088ff" />
+    </a>
+    <a href="https://securityscorecards.dev/viewer/?uri=github.com/Ephaberg/github-readme-stats">
+      <img alt="OpenSSF Scorecard" src="https://api.securityscorecards.dev/projects/github.com/Ephaberg/github-readme-stats/badge" />
+    </a>
+    <br />
+    <br />
+    <a href="https://vercel.com?utm\_source=github\_readme\_stats\_team\&utm\_campaign=oss">
+      <img src="./powered-by-vercel.svg"/>
+    </a>
+  </p>
+
 # About slowloris
 Written by RSnake with help from John Kinsella, IPv6 version by Hugo Gonzalez and a dash of inspiration from Robert E Lee.
 
@@ -68,6 +95,10 @@ This is obviously not a complete list, and there may be a number of variations o
 ```
 sudo perl slowloris.pl -dns example.com
 ```
+
+# Badge
+![GitHub followers](https://img.shields.io/github/followers/Ephaberg?style=social&logo=github&logoColor=black)
+
 
 # Requirements
 This is a Perl program requiring the Perl interpreter with the modules `IO::Socket::INET`  `IO::Socket::SSL` and `GetOpt::Long`. Slowloris works MUCH better and faster if you have threading, so I highly encourage you to also install threads and threads::shared if you don't have those modules already. You can install modules using `CPAN`
