@@ -18,9 +18,9 @@
      </p>
 
 # About slowloris
-Written by RSnake with help from John Kinsella, IPv6 version by Hugo Gonzalez and a dash of inspiration from Robert E Lee.
+Written by RSnake with help from John Kinsella, IPv6 version by Ephaberg and a dash of inspiration from Robert E Lee.
 
-`UPDATE 3:` IPv6 version provided by Hugo Gonzalez.
+`UPDATE 3:` IPv6 version provided by Ephaberg.
 
 `UPDATE 2:` Video presentation of Slowloris at DefCon (the middle section of the presentation) can be seen here: Hijacking Web 2.0 Sites with SSLstrip and SlowLoris -- Sam Bowne and RSnake at Defcon 17.
 
@@ -144,6 +144,6 @@ sudo perldoc slowloris6.pl
 ```
 `Issues` For a complete list of issues look at the Perl documentation, which explains all of the things to think about when running this denial of service attack.
 
-`Thanks` A Great Thank You to John Kinsella for the help with threading and id and greyhat for help with testing. Big Thanks to Hugo Gonzalez for IPv6 too!
+`Thanks` A Great Thank You to John Kinsella for the help with threading and id and greyhat for help with testing. Big Thanks to Ephaberg for IPv6 too!
 
 
